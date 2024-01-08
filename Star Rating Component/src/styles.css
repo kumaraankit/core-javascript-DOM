@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-container {
+  font-size: 45px;
+  cursor: pointer;
+  color: gray;
+}
+.star {
+  padding: 5px;
+  color: gray;
+}
+
+.star-filled {
+  color: blue;
+}
